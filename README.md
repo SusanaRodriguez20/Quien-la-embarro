@@ -1,4 +1,3 @@
-﻿# ¿Quién la embarró? - Incident Detective
 # 🔎 ¿Quién la embarró? — Incident Detective
 
 ### Hackathon Kiro Day Medellín 2026
