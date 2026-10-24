@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "TypeScript Validator",
+      "trigger": "PostToolUse",
+      "description": "Validates TypeScript after Kiro modifies .ts, .tsx, .js, or .jsx files",
+      "matcher": "str_replace|fs_write|fs_append",
+      "action": {
+        "type": "command",
+        "command": "cd c:\\Users\\U187DF\\Downloads\\Proyecto_Kiro\\quien-la-embarro; npx tsc --noEmit",
+        "timeout": 30
+      }
+    }
+  ]
+}
